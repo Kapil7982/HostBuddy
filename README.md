@@ -1,5 +1,5 @@
 # HostBuddy
-This is an Spring Boot Application. which is user to add the different type of products. We can perfrom all the CRUD operation in this application such as Create, Read, Update and Delete. 
+This is a simple web application that allows users to manage a list of items. The application provides features such as adding new items to the list with a name and a description, viewing all items in the list, and searching for items by name. The backend of the application is implemented in Java, using a framework like Spring Boot to create a simple REST API. And for frontend I have used HTML,CSS, and Javascript.
 
 ## REST API Use for below functions
 - User can add the prodcuts.
@@ -47,7 +47,7 @@ spring.datasource.password=port
 ![WhatsApp Image 2023-05-12 at 10 18 27 PM](https://github.com/Kapil7982/HostBuddy/assets/103938868/9803773f-a637-48e1-a295-cc23f42caad7)
 
 ## Frontend
-For frontend part I have use HTML,CSS, and JavaScript.
+For frontend part I have use HTML,CSS, and JavaScript. After running the application on browser simply type //localhost:8888/index.html then you can use it accordingly.
 
 ![WhatsApp Image 2023-05-12 at 10 21 34 PM](https://github.com/Kapil7982/HostBuddy/assets/103938868/96cfcec7-2c22-4b93-9584-1d6652c223f2)
 
