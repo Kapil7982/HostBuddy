@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Item List</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Item List</h1>
+    <form id="add-form">
+        <input type="text" id="name" placeholder="Item Name" required>
+        <input type="text" id="description" placeholder="Item Description" required>
+        <input type="text" id="imageUrl" placeholder="Item imageUrl" required>
+        <input type="number" id="amount" placeholder="Item amount" required>
+        <button type="submit">Add Item</button>
+    </form>
+    <div id="search-container">
+        <input type="text" id="search" placeholder="Search by Name">
+        <button id="search-btn">Search</button>
+    </div>
+    <div id="item-list">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
